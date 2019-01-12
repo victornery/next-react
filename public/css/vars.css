@@ -1,0 +1,11 @@
+:root {
+    --primary: #000;
+    --secundary: #fff;
+
+    --contrast-1: #ededed;
+    --contrast-2: #d6d6d6;
+
+    --next-theme: #01ff5f;
+
+    --font: 'New June', sans-serif;
+}

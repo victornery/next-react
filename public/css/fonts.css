@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'New June';
+    src: url('../fonts/NewJune-Medium.eot');
+    src: url('../fonts/NewJune-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NewJune-Medium.woff2') format('woff2'),
+        url('../fonts/NewJune-Medium.woff') format('woff'),
+        url('../fonts/NewJune-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New June';
+    src: url('../fonts/NewJune-Regular.eot');
+    src: url('../fonts/NewJune-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NewJune-Regular.woff2') format('woff2'),
+        url('../fonts/NewJune-Regular.woff') format('woff'),
+        url('../fonts/NewJune-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
