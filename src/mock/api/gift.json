@@ -1,0 +1,202 @@
+[
+    {
+        "modality": "credit",
+        "title": "Crédito",
+        "typeGifts": [
+            {
+                "title": "Alimentação",
+                "icon": "alimentacao",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Compras",
+                "icon": "compras",
+                "gifts": [
+                    {
+                        "title": "Ingressos com desconto",
+                        "icon": "cinemark"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Educação",
+                "icon": "educacao",
+                "gifts": [
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Entretenimento",
+                "icon": "entretenimento",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Serviços",
+                "icon": "servicos",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Transporte",
+                "icon": "transporte",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Viagens",
+                "icon": "viagens",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "modality": "debit",
+        "title": "Débito",
+        "typeGifts": [
+            {
+                "title": "Alimentação",
+                "icon": "alimentacao",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Compras",
+                "icon": "compras",
+                "gifts": [
+                    {
+                        "title": "Ingressos com desconto",
+                        "icon": "cinemark"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Educação",
+                "icon": "educacao",
+                "gifts": [
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Entretenimento",
+                "icon": "entretenimento",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Serviços",
+                "icon": "servicos",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Transporte",
+                "icon": "transporte",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            },
+            {
+                "title": "Viagens",
+                "icon": "viagens",
+                "gifts": [
+                    {
+                        "title": "Até R$20 off por mês",
+                        "icon": "ifood"
+                    },
+                    {
+                        "title": "Desconto especial",
+                        "icon": "mcdonalds"
+                    }
+                ]
+            }
+        ]
+    }
+]
