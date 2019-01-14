@@ -1,13 +1,27 @@
-const express = require('express')
-const app = express()
-const port = 8080
+const express = require('express') //   Importando Express
+const app = express() //    Criando instância do Express
+const port = 8000 //    Setando porta para servir sv express
+
+/*
+**  Criando server HTTP
+*/
 
 app.listen(port, () => {
     console.log(`Mock API rodando em http://localhost:${port}/api/`)
 })
 
-app.get('/api/', (req, res) => {
-    res.send(`Oi, você deve estar procurando algo como os Mocks criados aqui. `);
+/*
+**  Resolvendo requisições para os endpoints indicados
+*/
+
+app.get('/api/gifts/', (req, res) => {
+    res.sendFile(`${__dirname}/api/gift.json`)
 })
 
-app.use(express.static(__dirname))
+/*
+**  Aqui, podemos substituir os endpoints somente para o express
+**  servir arquivos estáticos. Fica aí um ponto legal para se
+**  pensar. 🧐
+**
+**  app.use(express.static(__dirname))
+*/
