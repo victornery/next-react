@@ -7,10 +7,15 @@ module.exports = {
         path: path.join(__dirname, 'build'),
         filename: 'bundle.js'
     },
+    resolve: {
+        alias: {
+            components: path.resolve(__dirname, 'src/components/')
+        }
+    },
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/,
+                test: /\.(js)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
@@ -45,8 +50,8 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'src','index.pug'),
-            filename: 'index.html',
-            inject: true
+            minify: true,
+            hash: true
         })
     ]
 }
