@@ -4,7 +4,7 @@
   "description": "A copy of Next Layout",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode development & node src/mock",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -42,6 +42,8 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
     "express": "^4.16.4",
     "imagemin-webpack-plugin": "^2.4.0",
     "pug-loader": "^2.4.0"
