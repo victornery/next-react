@@ -1,3 +1,10 @@
 .header {
-    background: blue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: var(--secundary);
+    padding: 15px 0;
+    top: 0;
+    z-index: 5;
 }
