@@ -1,9 +1,13 @@
 :root {
+    font-size: 16px;
+    
     --primary: #000;
     --secundary: #fff;
 
     --contrast-1: #ededed;
     --contrast-2: #d6d6d6;
+    
+    --nav: #878787;
 
     --next-theme: #01ff5f;
 
