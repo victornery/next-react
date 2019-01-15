@@ -1,0 +1,10 @@
+.button {
+    background: var(--primary);
+    color: var(--secundary);
+    font-family: var(--font);
+    font-size: 15px;
+    padding: 9px 15px;
+    border-radius: 9px;
+    line-height: 1;
+    cursor: pointer;
+}
