@@ -1,0 +1,27 @@
+.item {
+    color: var(--nav);
+    padding-left: 30px;
+    cursor: pointer;
+    font-weight: 300;
+
+    transition: .5s color;
+}
+
+.item:hover {
+    color: #000;
+}
+
+.item::before {
+    content: '•';
+    margin-right: 10px;
+}
+
+.item__selected {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.item__selected::before {
+    font-weight: 300;
+    color: var(--next-theme)
+}

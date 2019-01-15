@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './navItem.css'
+import styles from './item.css'
 
-const NavItem = ({ name }) => <li className={ styles.item }>{ name }</li>
+const NavItem = ({ title }) => <li className={ styles.item } key={`nav-${title}`}>{ title }</li>
 
 export default NavItem
