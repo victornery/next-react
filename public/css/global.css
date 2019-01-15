@@ -1,0 +1,13 @@
+:global(.container) {
+    width: 100%;
+    max-width: 1800px;
+    padding: 0 24px;
+    margin: 0 auto;
+    position: relative;
+}
+
+:global(.container-flex) {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
