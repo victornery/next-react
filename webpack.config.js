@@ -7,9 +7,20 @@ module.exports = {
         path: path.join(__dirname, 'build'),
         filename: 'bundle.js'
     },
+    devServer: {
+        proxy: {
+            '/api/**': {
+                target: 'http://127.0.0.1:8000/api/',
+                pathRewrite: { '^/api': '' },
+                secure: false,
+                changeOrigin: true
+            }
+        }
+    },
     resolve: {
         alias: {
-            components: path.resolve(__dirname, 'src/components/')
+            components: path.resolve(__dirname, 'src/components/'),
+            utils: path.resolve(__dirname, 'src/utils/')
         }
     },
     module: {
