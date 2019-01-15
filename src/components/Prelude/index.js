@@ -4,10 +4,10 @@ import cover from './cover-image.png'
 
 const Prelude = () => (
     <section className={styles.prelude}>
-        <div className="container">
+        <div className="container container-flex">
             <div className={ styles.prelude__content }>
-                <h2 className={ styles.prelude__title }>Pra ganhar descontos exclusivo, vem pro next</h2>
-                <p className={ styles.prelude__about }>Não é programa de ponto. É só nosso jeitinho de te mimar.</p>
+                <h2 className={ styles.prelude__title }>Pra ganhar descontos exclusivos, vem pro next</h2>
+                <p className={ styles.prelude__about }>Não é programa de ponto. <wbr /> É só nosso jeitinho de te mimar {`<3`}</p>
             </div>
             <figure className={ styles.prelude__cover }>
                 <img alt="Vem pro next" src={ cover } />
