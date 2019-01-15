@@ -1,0 +1,18 @@
+.nav {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .nav {
+        display: inline-flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+}
+
+.nav__list {
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

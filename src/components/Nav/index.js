@@ -1,15 +1,14 @@
 import React from 'react'
 import styles from './nav.css'
 
-const Nav = () => (
+import NavItem from 'components/NavItem'
+
+const Nav = ({ items }) => (
     <nav className={styles.nav}>
         <ul className={ styles.nav__list }>
-            <li>next</li>
-            <li>Flow</li>
-            <li>Vaquinha</li>
-            <li>Objetivos</li>
-            <li>Mimos</li>
-            <li>Propostas</li>
+            { items &&
+                items.map((item) => <NavItem key={item.title} title={ item.title } />)
+            }
         </ul>
     </nav>
 )
