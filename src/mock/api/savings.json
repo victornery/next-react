@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "uber",
+        "advantage": "R$ 20 off",
+        "description": "Vc pega um Uber por mês e economiza até"
+    },
+    {
+        "icon": "cinemark",
+        "advantage": "50% off",
+        "description": "Vc vai no cinema todo mês e pode economizar"
+    },
+    {
+        "icon": "ifood",
+        "advantage": "R$ 20 off",
+        "description": "Vc pede um iFood por mês e economiza até"
+    }
+]
