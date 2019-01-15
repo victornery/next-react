@@ -1,71 +1,53 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styles from './gift.css'
+import GiftItem from 'components/GiftItem'
 
-const Gift = () => (
-    <section className={ styles.gifts }>
-        <div className={ styles.gifts__presentation }>
+class Gift extends Component {
+    constructor(props) {
+        super(props)
 
-            <h2 className={ styles.gifts__title }>Apresentamos os Mimos</h2>
-            <p className={ styles.gifts__description }>Parceiros exclusivos com desconto só pra vc, que é next.</p>
+        this.state = {
+            isCredit: true
+        }
+    }
 
-            <a href="#">Regras de Uso</a>
+    render() {
+        const { benefits } = this.props
+        const { isCredit } = this.state
 
-            <ul>
-                <li>Crédito</li>
-                <li>Débito</li>
-            </ul>
+        return (
+            <section className={ styles.gift }>
+                <div className={ styles.gift__presentation }>
+                    <div className="container">
+                        <div className={ styles.gift__header }>
+                            <h2 className={ styles.gift__title }>Apresentamos os Mimos</h2>
+                            <p className={ styles.gift__description }>Parceiros exclusivos com desconto só pra vc, que é next.</p>
+                        </div>
+                        <a className={ styles.gift__rules } href="#">Regras de Uso</a>
 
-            <ul className={ styles.gifts__benefits }>
-                <li>
-                    <svg />
-                    <span>Alimentação</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Compras</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Educação</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Entretenimento</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Serviços</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Transporte</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Viagens</span>
-                </li>
-            </ul>
+                        <ul className={ styles.gift__choose }>
+                            <li className={isCredit ? styles.gift__choosed : ''} >Crédito</li>
+                            <li className={!isCredit ? styles.gift__choosed : ''}>Débito</li>
+                        </ul>
 
-        </div>
+                        <ul className={ styles.gift__benefits }>
+                            { benefits &&
+                                benefits.map((item) => {
+                                    <GiftItem name={ item.title } icon={ item.icon } />
+                                })
+                            }
+                        </ul>
+                    </div>
+                </div>
 
-        <div className={ styles.gifts__discounts }>
-            <ul>
-                <li>
-                    <svg />
-                    <span>Até <strong>R$20</strong> off por mês</span>
-                </li>
-                <li>
-                    <svg />
-                    <span>Cupons <strong>exclusivos</strong> pra você</span>
-                </li>
-                <li>
-                    <svg />
-                    <span><strong>Desconto</strong> especial</span>
-                </li>
-            </ul>
-        </div>
-
-    </section>
-)
+                <div className={ styles.gift__discounts }>
+                    <ul className={ styles.discounts }>
+                        
+                    </ul>
+                </div>
+            </section>
+        )
+    }
+}
 
 export default Gift

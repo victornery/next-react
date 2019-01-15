@@ -1,0 +1,32 @@
+.gift__presentation {
+    background-color: var(--contrast-1);
+    padding: 40px 0;
+}
+
+.gift__header {
+    width: 70%;
+}
+
+.gift__rules {
+    display: block;
+    font-weight: 500;
+    color: var(--primary);
+    margin: 25px 0;
+}
+
+.gift__choose {
+    border-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gift__choose li {
+    display: inline-block;
+    background: var(--contrast-2);
+    padding: 10px 15px;
+    width: 50%;
+}
+
+.gift__choosed {
+    background-color: var(--next-theme);
+}
