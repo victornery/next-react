@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import Home from './containers/Home'
-import AppContext from './utils/context'
+import AppContext from 'utils/context'
 import '../public/css/all.css' // CSS Commons
 
 class App extends Component {
@@ -14,9 +14,9 @@ class App extends Component {
     componentDidMount() {
 
         const url = [
-            'http://127.0.0.1:8080/api/gifts',
-            'http://127.0.0.1:8080/api/nav',
-            'http://127.0.0.1:8080/api/savings'
+            'http://localhost:8080/api/gifts',
+            'http://localhost:8080/api/nav',
+            'http://localhost:8080/api/savings'
         ]
         
         const handleFetchs = async () => 
