@@ -5,7 +5,7 @@
         "typeGifts": [
             {
                 "title": "Alimentação",
-                "icon": "alimentacao",
+                "icon": "food",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -13,13 +13,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Compras",
-                "icon": "compras",
+                "icon": "shop",
                 "gifts": [
                     {
                         "title": "Ingressos com desconto",
@@ -27,17 +27,17 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Educação",
-                "icon": "educacao",
+                "icon": "college",
                 "gifts": [
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
@@ -51,13 +51,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Serviços",
-                "icon": "servicos",
+                "icon": "services",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -65,13 +65,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Transporte",
-                "icon": "transporte",
+                "icon": "transportation",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -79,13 +79,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Viagens",
-                "icon": "viagens",
+                "icon": "travel",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -93,7 +93,7 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             }
@@ -105,7 +105,7 @@
         "typeGifts": [
             {
                 "title": "Alimentação",
-                "icon": "alimentacao",
+                "icon": "food",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -113,13 +113,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Compras",
-                "icon": "compras",
+                "icon": "shop",
                 "gifts": [
                     {
                         "title": "Ingressos com desconto",
@@ -127,17 +127,17 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Educação",
-                "icon": "educacao",
+                "icon": "college",
                 "gifts": [
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
@@ -151,13 +151,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Serviços",
-                "icon": "servicos",
+                "icon": "services",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -165,13 +165,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Transporte",
-                "icon": "transporte",
+                "icon": "transportation",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -179,13 +179,13 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             },
             {
                 "title": "Viagens",
-                "icon": "viagens",
+                "icon": "travel",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
@@ -193,7 +193,7 @@
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mcdonalds"
+                        "icon": "mc"
                     }
                 ]
             }
