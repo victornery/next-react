@@ -20,7 +20,8 @@ module.exports = {
     resolve: {
         alias: {
             components: path.resolve(__dirname, 'src/components/'),
-            utils: path.resolve(__dirname, 'src/utils/')
+            utils: path.resolve(__dirname, 'src/utils/'),
+            icons: path.resolve(__dirname, 'public/icons/'),
         }
     },
     module: {
@@ -56,6 +57,10 @@ module.exports = {
                 exclude: /node_modules/,
                 use: 'file-loader'
             }
+            // {
+            //     test: /\.svg$/,
+            //     use: 'svg-inline-loader'
+            // }
         ]
     },
     plugins: [
