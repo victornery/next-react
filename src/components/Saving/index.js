@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './saving.css'
 import SavingItem from 'components/SavingItem'
 import Cover from 'components/Cover'
+import cover from './card-hand.png'
 
 const Saving = () => (
    <section className={styles.saving}>
@@ -14,7 +15,7 @@ const Saving = () => (
 
          </ul>
 
-         <Cover alt="Sobra grana mesmo. É só ter conta no next. Ainda dá tempo." />
+         <Cover className={ styles.saving__cover } image={ cover } alt="Sobra grana mesmo. É só ter conta no next. Ainda dá tempo." />
 
       </div>
    </section>

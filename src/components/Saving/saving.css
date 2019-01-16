@@ -1,0 +1,13 @@
+.saving {
+    padding-top: 40px;
+}
+
+.saving__title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.saving__cover {
+    width: 60%;
+    margin: 0 auto;
+}
