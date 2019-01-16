@@ -1,0 +1,11 @@
+.item {
+    background-color: var(--contrast-2);
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 15px;
+    width: 50%;
+}
+
+.selected {
+    background-color: var(--next-theme)
+}
