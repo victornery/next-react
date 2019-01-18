@@ -11,7 +11,7 @@ class Gift extends Component {
       this.state = {
          modalOpen: false,
          modality: 'credit',
-         typeGift: 'alimentacao'
+         typeGift: 'Alimentação'
       }
    }
 
@@ -28,13 +28,17 @@ class Gift extends Component {
          clicked !== modality && this.setState({ modality: clicked })
    }
 
-   handleBenefits = (benefits) => {
-      console.log(benefits)
+   changeType = (node) => {
+      const { typeGift } = this.state
+      const clicked = node.target.dataset.gift
+      console.log(clicked)
 
-      return <GiftItem icon={} />
+      clicked && 
+         clicked !== typeGift && this.setState({ typeGift: clicked })
    }
 
    render () {
+      const { modality, typeGift } = this.state
 
       return (
          <section className={styles.gift}>
@@ -50,20 +54,41 @@ class Gift extends Component {
                   <ul className={styles.gift__choose}>
                      <AppContext.Consumer>
                         {context => context.gifts.map((type) => (
-                           <Modality onClick={this.changeModality} onLoad={this.handleBenefits(type.typeGifts)} checked={ this.state.modality === type.modality ? true : false } name={type.title} category={type.modality} key={type.modality} />
+                           <Modality onClick={this.changeModality} checked={ this.state.modality === type.modality ? true : false } name={type.title} category={type.modality} key={type.modality} />
                         ))
                         }
                      </AppContext.Consumer>
                   </ul>
 
                   <ul className={styles.gift__benefits}>
+                        <AppContext.Consumer>
+                              {
+                                    context => context.gifts.map((type) => (
+                                          type.modality === modality && 
+                                                type.typeGifts.map(((gift) => (
+                                                      <GiftItem onClick={this.changeType} key={gift.title} name={ gift.title } />
+                                                )))
+                                    ))
+                              }      
+                        </AppContext.Consumer>
                   </ul>
                </div>
             </div>
 
             <div className={styles.gift__discounts}>
                <ul className={styles.discounts}>
-
+                  <AppContext.Consumer>
+                        { context => context.gifts.map((type) => (
+                                    type.modality === modality && 
+                                          type.typeGifts.map(((gift) => (
+                                                gift.title === typeGift &&
+                                                gift.gifts.map((item) => {
+                                                      return <li key={ item.title }>{ item.title }</li>
+                                                })
+                                          )))
+                              ))
+                        }      
+                  </AppContext.Consumer>
                </ul>
             </div>
          </section>

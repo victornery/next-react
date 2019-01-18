@@ -1,10 +1,64 @@
+.gift {}
+
+@media (min-width: 768px) {
+    .gift :global(.container) {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .gift :global(.container) {
+        text-align: left;
+    }
+
+    .gift {
+        display: flex;
+    }
+}
+
 .gift__presentation {
     background-color: var(--contrast-1);
     padding: 40px 0;
 }
 
+@media (min-width: 768px) {
+    .gift__presentation {
+        padding: 80px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .gift__presentation {
+        padding: 40px 0;
+        width: 100%;
+    }
+}
+
+.gift__discounts {
+    background: #f7f7f7;
+}
+
+@media (min-width: 1200px) {
+    .gift__discounts {
+        width: 100%;
+    }
+}
+
+/* Regras do Header da seção - Título/Descrição */
+
 .gift__header {
     width: 70%;
+}
+
+@media (min-width: 768px) {
+    .gift__header {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    
 }
 
 .gift__title {
@@ -17,6 +71,8 @@
 .gift__description {
     font-size: 19px;
 }
+
+/* Regras do link do Modal */
 
 .gift__rules {
     display: block;
