@@ -10,7 +10,7 @@ const Prelude = () => (
             <h2 className={styles.prelude__title}>Pra ganhar descontos exclusivos, vem pro next</h2>
             <p className={styles.prelude__about}>Não é programa de ponto. <wbr /> É só nosso jeitinho de te mimar {`<3`}</p>
          </div>
-         <Cover image={cover} alt="Vem pro Next! ;-)" />
+         <Cover className={ styles.prelude__cover } image={cover} alt="Vem pro Next! ;-)" />
       </div>
    </section>
 )

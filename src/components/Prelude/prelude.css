@@ -7,8 +7,42 @@
     flex-direction: column-reverse;
 }
 
+@media (min-width: 768px) {
+    .prelude :global(.container-flex) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .prelude {
+        padding: 40px 0 0;
+    }
+
+    .prelude :global(.container-flex) {
+        flex-direction: row;
+    }
+}
+
 .prelude__content {
     width: 70%;
+}
+
+@media (min-width: 768px) {
+    .prelude__content {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .prelude__content {
+        width: 25%;
+        max-width: 100%;
+        text-align: left;
+        margin-top: 60px;
+    }
 }
 
 .prelude__title {
@@ -18,8 +52,29 @@
     line-height: 1.2;
 }
 
+@media (min-width: 1200px) {
+    .prelude__title {
+        font-size: 45px;
+    }
+}
+
+/* Antes de entregar o projeto, não esquecer de ajustar as fontes do .prelude__title */
+
 .prelude__about {
     font-size: 19px;
     word-spacing: 2px;
     margin-top: 10px;
+}
+
+.prelude__cover {
+}
+
+.prelude__cover img {
+    display: block;
+}
+
+@media (min-width: 1200px) {
+    .prelude__cover {
+        width: 55%;
+    }
 }
