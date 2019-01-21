@@ -5,95 +5,95 @@
         "typeGifts": [
             {
                 "title": "Alimentação",
-                "icon": "food",
+                "icon": "Food",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Compras",
-                "icon": "shop",
+                "icon": "Shop",
                 "gifts": [
                     {
                         "title": "Ingressos com desconto",
-                        "icon": "cinemark"
+                        "icon": "Cinemark"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Educação",
-                "icon": "college",
+                "icon": "College",
                 "gifts": [
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Entretenimento",
-                "icon": "entretenimento",
+                "icon": "Entertainment",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Serviços",
-                "icon": "services",
+                "icon": "Services",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Transporte",
-                "icon": "transportation",
+                "icon": "Transportation",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Viagens",
-                "icon": "travel",
+                "icon": "Travel",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             }
@@ -105,81 +105,81 @@
         "typeGifts": [
             {
                 "title": "Alimentação",
-                "icon": "food",
+                "icon": "Food",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Compras",
-                "icon": "shop",
+                "icon": "Shop",
                 "gifts": [
                     {
                         "title": "Ingressos com desconto",
-                        "icon": "cinemark"
+                        "icon": "Cinemark"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Educação",
-                "icon": "college",
+                "icon": "College",
                 "gifts": [
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Entretenimento",
-                "icon": "entretenimento",
+                "icon": "Entertainment",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Serviços",
-                "icon": "services",
+                "icon": "Services",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             },
             {
                 "title": "Transporte",
-                "icon": "transportation",
+                "icon": "Transportation",
                 "gifts": [
                     {
                         "title": "Até R$20 off por mês",
-                        "icon": "ifood"
+                        "icon": "Ifood"
                     },
                     {
                         "title": "Desconto especial",
-                        "icon": "mc"
+                        "icon": "McDonalds"
                     }
                 ]
             }
