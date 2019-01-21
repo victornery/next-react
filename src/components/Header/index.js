@@ -3,7 +3,7 @@ import styles from './header.css'
 import Nav from 'components/Nav'
 import Button from 'components/Button'
 import AppContext from 'utils/context'
-import KeyImage from 'icons/logo.svg'
+import * as Icon from 'components/Icons'
 import SVG from 'react-inlinesvg'
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
             { context => (
                 <header className={ styles.header }>
                     <div className="container container-flex">
-                        <SVG src={ KeyImage } style={{ width: '80px' }} />
+                        <SVG src={ Icon.Logo } style={{ width: '80px' }} />
                         <Nav items={ context.nav } />
                         <Button title="Abra sua conta" />
                     </div>
