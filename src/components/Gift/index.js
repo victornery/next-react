@@ -3,6 +3,7 @@ import styles from './gift.css'
 import AppContext from 'utils/context'
 import GiftItem from 'components/GiftItem'
 import Modality from 'components/Modality'
+import * as Icon from 'components/Icons'
 
 class Gift extends Component {
    constructor(props) {
@@ -62,11 +63,10 @@ class Gift extends Component {
 
                   <ul className={styles.gift__benefits}>
                         <AppContext.Consumer>
-                              {
-                                    context => context.gifts.map((type) => (
+                              { context => context.gifts.map((type) => (
                                           type.modality === modality && 
                                                 type.typeGifts.map(((gift) => (
-                                                      <GiftItem onClick={this.changeType} key={gift.title} name={ gift.title } />
+                                                      <GiftItem onClick={this.changeType} name={ gift.title } icon={Icon[gift.icon]} key={gift.title} />
                                                 )))
                                     ))
                               }      
@@ -83,7 +83,7 @@ class Gift extends Component {
                                           type.typeGifts.map(((gift) => (
                                                 gift.title === typeGift &&
                                                 gift.gifts.map((item) => {
-                                                      return <li key={ item.title }>{ item.title }</li>
+                                                      return <GiftItem name={ item.title } icon={Icon[item.icon]} key={item.title} />
                                                 })
                                           )))
                               ))
